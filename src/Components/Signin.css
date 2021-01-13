@@ -1,0 +1,33 @@
+.signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin_cards{
+    position: absolute;
+    top: 30%;
+    width: 300px;
+    padding: 50px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px;
+}
+.signin_cards > input{
+    width: 250px;
+    height: 35px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.signin_cards > input:focus{
+    border: skyblue;
+}
+/* button{
+    border: 1px solid transparent;
+    width: 100px;
+    height: ;
+} */
